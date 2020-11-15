@@ -1,0 +1,306 @@
+﻿<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Подать записку онлайн</title>
+    <link rel="shortcut icon" href="./assets/images/favicon2.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/blog/">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <!-- Bootstrap core CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+        .active{
+            height: auto;
+            background-color: white;
+            border: none;
+        }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header class="blog-header py-3">
+            <div class="row flex-nowrap justify-content-between align-items-center">
+                <div class="col-2 pt-1">
+                    <a class="link-secondary" href="index.html"><img class="rounded-circle" src="./assets/images/logo2.png" style="height: 70px;"></a>
+                </div>
+                <div class="col-8 text-center">
+                    <a class="blog-header-logo text-dark" href="index.html">Приход храма Святителя Николая Чудотворца г. Поставы<br /><h5>Белорусская православная церковь, Полоцкая епархия</h5></a>
+                </div>
+                <div class="col-2 d-flex justify-content-end align-items-center">
+                    <a class="link-secondary anim-increase" href="https://www.instagram.com/cerkovpostavy/?igshid=10jbd8h5z891t" aria-label="Search"> <img class="mr-2" src="./assets/images/inst.png" style="height: 30px;"></a>
+                    <a class="link-secondary anim-increase" href="https://vk.com/cerkovpostavy" aria-label="Search"> <img src="./assets/images/vk.png" style="height: 30px;"></a>
+                </div>
+            </div>
+        </header>
+        <!-- Меню -->
+        <!-- mobile -->
+        <div class="d-xxl-none d-xl-none">
+            <nav class="navbar navbar-dark bg-dark rounded-top">
+                <div class="container-fluid d-flex align-items-center">
+
+                    <button class="navbar-toggler d-flex align-items-center border-0" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        <div class="d-flex align-items-center"><p class="text-light m-0 ml-2">Меню</p></div>
+                    </button>
+                    <div class="d-flex align-items-center"><p class="text-light m-0 mr-2">Главная</p></div>
+                </div>
+            </nav>
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4 rounded-bottom ">
+                    <a class="p-3 no-active btn-outline-secondary text-light" href="index.html">Главная</a>
+                    <a class="p-3 no-active btn-outline-secondary text-light" href="hews.html">Новости</a>
+                    <a class="p-3 no-active btn-outline-secondary text-light" href="gallery.html">Галерея</a>
+                    <a class="p-3 no-active btn-outline-secondary text-light" href="school.html">Воскресная школа</a>
+                    <a class="p-3 no-active btn-outline-secondary text-light" href="communications.html">Для связи</a>
+                    <a class="p-3 no-active btn-outline-secondary text-light" href="questions.html">Вопрос священнику</a>
+                    <a class="p-3 active-2 text-light" href="scraps.html">Подать записку</a>
+                </div>
+            </div>
+        </div>
+        <!-- PC -->
+        <div class="py-2 border-bottom mb-4 menu-pc">
+            <nav class="navbar-collapse nav flex-column flex-lg-row p-0 d-flex justify-content-between container">
+                <a class="p-3 no-active btn-outline-secondary" href="index.html">Главная</a>
+                <a class="p-3 no-active btn-outline-secondary" href="news.html">Новости</a>
+                <a class="p-3 no-active btn-outline-secondary" href="gallery.html">Галерея</a>
+                <a class="p-3 no-active btn-outline-secondary" href="school.html">Воскресная школа</a>
+                <a class="p-3 no-active btn-outline-secondary" href="communications.html">Для связи</a>
+                <a class="p-3 no-active btn-outline-secondary" href="questions.html">Вопрос священнику</a>
+                <a class="p-3 active-2 text-white" href="scraps.html" style="background-color: #0094ff; border:2px solid #0094ff;" >Подать записку</a>
+            </nav>
+        </div>
+        <!-- Welcome! -->
+        <div class="p-4 p-md-5 mb-4 text-dark rounded shadow-lg" style='background-image: url(./assets/images/news/header_background_news.png); background-size:cover;'>
+            <div class="col-md-6 px-0">
+                <h1 class="display-5">Подать записку онлайн</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Стилизация основного контента -->
+    <main class="container">
+        <div class="row d-flex justify-content-center ">
+
+            <!-- left treba -->
+
+            <div class="col-md-6 mb-4">
+                <p>
+                    <h5 class="m-0 p-0">Дорогие братья и сестры!</h5><br />
+                    Вы можете подать записку в наш храм онлайн!<br />
+                    Мы принимаем записки о здравии и о упокоении, а также Вы можете заказать сорокоуст, молебен, молебен с акафистом и другие требы.<br />
+                    Имена следует писать в родительном падеже единственного числа, например: [о здравии] Елены, Ольги; [о упокоении] Александра, Владимира.<br />
+                    Примечание: подавая записку за христианин инославного вероисповедания, обязательно указывайте это в записке рядом с именем!<br />
+                </p>
+                <h4>Поминовение:</h4>
+                <div class="col-4">
+                    <div class="tab-pane fade show" role="tabpanel">
+                        <div class="form-check" >
+                            <input class="form-check-input pz" type="radio" name="select_scraps">
+                            <label class="form-check-label" for="treba_red">О здравии</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input pu" type="radio" name="select_scraps">
+                            <label class="form-check-label" for="treba_red">Об успокоении</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- TREBA: -->
+                <h4>Треба:</h4>
+                <!-- zdravie -->
+                    <div class="tab-pane fade show"  role="tabpanel">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="treba_zdravie">
+                            <label class="form-check-label" for="treba_red">Молебен</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="treba_zdravie" >
+                            <label class="form-check-label" for="treba_red">Сорокоуст</label>
+                        </div>
+                    </div>
+
+                    <!-- UPOKOY -->
+                    <div class="tab-pane fade"  role="tabpanel">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio">
+                            <label class="form-check-label" for="treba_upokoy">Панихида</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio">
+                            <label class="form-check-label" >Проскимидия</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio">
+                            <label class="form-check-label" >Проскимидия</label>
+                        </div>
+                    </div>
+        </div>
+        <!-- right scraps -->
+        <div class="col-md-6 d-flex justify-content-center mb-4 ">
+
+                <div class="tab-content" id="nav-tabContent">
+
+                  <div class="red_scrap" >
+                      <div style="border: 2px solid #ba3827;" class="d-flex justify-content-center flex-column rounded">
+                          <div class="title pt-4 pl-5 pr-5 d-flex justify-content-center flex-column">
+                              <img src="./assets/images/scraps/krest-red.png">
+                              <h3 class="text-center mt-4" style='color: #ba3827;'>О здравии</h3>
+                          </div>
+                          <div class="commemoration-list-form pr-3">
+                              <ol>
+                                  <li style="color:#ba3827;">
+                                      <input class='w-100 ' name="cname[]" type="text" style="border: none;border-bottom: 1px solid #ba3827;">
+                                  </li>
+                                  <li style="color:#ba3827;">
+                                      <input class='w-100 ' name="cname[]" type="text" style="border: none;border-bottom: 1px solid #ba3827;">
+                                  </li>
+                                  <li style="color:#ba3827;">
+                                      <input class='w-100 ' name="cname[]" type="text" style="border: none;border-bottom: 1px solid #ba3827;">
+                                  </li>
+                                  <li style="color:#ba3827;">
+                                      <input class='w-100 ' name="cname[]" type="text" style="border: none;border-bottom: 1px solid #ba3827;">
+                                  </li>
+                                  <li style="color:#ba3827;">
+                                      <input class='w-100 ' name="cname[]" type="text" style="border: none;border-bottom: 1px solid #ba3827;">
+                                  </li>
+                                  <li style="color:#ba3827;">
+                                      <input class='w-100 ' name="cname[]" type="text" style="border: none;border-bottom: 1px solid #ba3827;">
+                                  </li>
+                                  <li style="color:#ba3827;">
+                                      <input class='w-100 ' name="cname[]" type="text" style="border: none;border-bottom: 1px solid #ba3827;">
+                                  </li>
+                                  <li style="color:#ba3827;">
+                                      <input class='w-100 ' name="cname[]" type="text" style="border: none;border-bottom: 1px solid #ba3827;">
+                                  </li>
+                                  <li style="color:#ba3827;">
+                                      <input class='w-100 ' name="cname[]" type="text" style="border: none;border-bottom: 1px solid #ba3827;">
+                                  </li>
+                                  <li class="cname" style="color:#ba3827;">
+                                      <input class='w-100' name="cname[]" type="text" style="border: none;border-bottom: 1px solid #ba3827;">
+                                  </li>
+                              </ol>
+                          </div>
+                          <div class="commemoration-list-button text-center mb-3 ">
+                              <a id="addnewcname" class="addnewcname p-1 pl-4 pr-4 button button-disabled text-decoration-none rounded">Добавить еще имена</a>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="black_scrap">
+
+                      <div style="border: 2px solid black;" class="d-flex justify-content-center flex-column rounded black_scraps">
+                          <div class="title pt-4 pl-5 pr-5 d-flex justify-content-center flex-column">
+                              <img src="./assets/images/scraps/krest-black.png">
+                              <h3 class="text-center mt-4" style='color: black;'>Об упокоении</h3>
+                          </div>
+                          <div class="commemoration-list-form pr-3">
+                              <ol>
+                                  <li style="color: black;">
+                                      <input class='w-100 ' name="cname[]" type="text" style="border: none;border-bottom: 1px solid black;">
+                                  </li>
+                                  <li style="color:black;">
+                                      <input class='w-100 ' name="cname[]" type="text" style="border: none;border-bottom: 1px solid black;">
+                                  </li>
+                                  <li style="color:black;">
+                                      <input class='w-100 ' name="cname[]" type="text" style="border: none;border-bottom: 1px solid black;">
+                                  </li>
+                                  <li style="color:black;">
+                                      <input class='w-100 ' name="cname[]" type="text" style="border: none;border-bottom: 1px solid black;">
+                                  </li>
+                                  <li style="color:black;">
+                                      <input class='w-100 ' name="cname[]" type="text" style="border: none;border-bottom: 1px solid black;">
+                                  </li>
+                                  <li style="color:black;">
+                                      <input class='w-100 ' name="cname[]" type="text" style="border: none;border-bottom: 1px solid black;">
+                                  </li>
+                                  <li style="color:black;">
+                                      <input class='w-100 ' name="cname[]" type="text" style="border: none;border-bottom: 1px solid black;">
+                                  </li>
+                                  <li style="color:black;">
+                                      <input class='w-100 ' name="cname[]" type="text" style="border: none;border-bottom: 1px solid black;">
+                                  </li>
+                                  <li style="color:black;">
+                                      <input class='w-100 ' name="cname[]" type="text" style="border: none;border-bottom: 1px solid black;">
+                                  </li>
+                                  <li class='cname' style="color:black;">
+                                      <input class='w-100' name="cname[]" type="text" style="border: none;border-bottom: 1px solid black;">
+                                  </li>
+                                </ol>
+                            </div>
+                            <div class="commemoration-list-button text-center mb-3 ">
+                                <a id="addnewcname" class="addnewcname p-1 pl-4 pr-4 button text-decoration-none rounded">Добавить еще имена</a>
+                            </div>
+                      </div>
+                  </div>
+              </div>
+           </div>
+        </main>
+        <div class="col-md-12 d-flex justify-content-center mb-4">
+            <a class="p-3 active-2 button " href="#">Подать записку</a>
+        </div>
+
+
+
+            
+        </div>
+
+
+    </main>
+
+    
+
+    <!-- FOOTER -->
+
+    <footer class="blog-footer">
+        <a class="link-secondary" href="https://vk.com/cerkovpostavy" aria-label="Search"> <img class='anim-increase' src="./assets/images/footer/vk_footer.png" style="height: 30px;"></a>
+        <a class="link-secondary" href="https://www.instagram.com/cerkovpostavy/?igshid=10jbd8h5z891t" aria-label="Search"> <img class='anim-increase' src="./assets/images/footer/inst_footer.png" style="height: 30px;"></a>
+        <a class="link-secondary" href="https://www.youtube.com/channel/UCJ4RR8xSJDj486BKwoWmroQ/videos" aria-label="Search"> <img class='anim-increase' src="./assets/images/footer/yt_footer.png" style="height: 30px;"></a>
+        <a class="link-secondary" href="mailto:o.valeriy@cerkov-postavy.by  " aria-label="Search"> <img class='anim-increase' src="./assets/images/footer/mail_footer.png" style="height: 30px;"></a>
+        <p class="m-0 mt-4">© 2020 Приход храма cвятителя Николая Чудотворца г. Поставы</p>
+        <p class="m-0">Все права защищены. При использовании материалов ссылка на сайт обязательна.</p>
+        <p class="m-0">УНН 300078335</p>
+    </footer>
+
+
+
+
+<!-- Скрипт записок -->
+<script type="text/javascript">
+    let addnewcname = document.querySelector('#addnewcname','#addnewcname_black');
+    let cname = document.querySelector('.cname');
+
+    addnewcname.addEventListener('click', function(){
+        console.log('qdwqwdq');
+
+    });
+</script>
+
+    <!-- Скрипт календаря -->
+
+
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+</body>
+</html>

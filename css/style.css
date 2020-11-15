@@ -1,0 +1,282 @@
+/* stylelint-disable selector-list-comma-newline-after */
+body {
+    font-family: 'Jost', sans-serif;
+}
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 1.80rem;
+    text-decoration: none;
+    color: #0094ff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Jost', sans-serif;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #727272;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.active {
+    display: flex;
+    align-items: center;
+    background: #0094ff;
+    border: 2px solid #0094ff;
+    width: auto;
+    height: 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+}
+.active:hover{
+    color: white;
+}
+.active-2 {
+    display: flex;
+    align-items: center;
+    border: 2px solid #0094ff;
+    width: auto;
+    height: 15px;
+    color: black;
+    text-decoration: none;
+    border-radius: 7px;
+    transition-duration: .3s;
+}
+    .active-2:hover {
+        background: #0094ff;
+        color:white;
+    }
+.no-active {
+        display: flex;
+        align-items: center;
+        width: auto;
+        height: 15px;
+        color: black;
+        text-decoration: none;
+        border-radius: 7px;
+        transition-duration: .3s;
+    }
+.bnt-news{
+    display:flex;
+    justify-content:flex-end;
+    color:white;
+}
+.bnt-news a{
+    color:black;
+    font-weight:500;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+
+}
+    .bnt-news a:hover {
+        color: #0094ff;
+    }
+.anim-increase {
+    transition: .2s;
+}
+    .anim-increase:hover {
+        transform: scale(1.10);
+    }
+    /*STYLE CALENDAR*/
+    .days-image {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+.date-today {
+    font-weight:500;
+    font-size:20px;
+    
+    display: flex;
+    justify-content: center;
+}
+    .date-today a {
+        text-decoration: none;
+    }
+.weeks-message {
+    font-size: 18px;
+    font-weight:500;
+    display: flex;
+    justify-content: center;
+}
+.saints {
+    text-align:center;
+}
+    .saints a {
+        text-decoration: none;
+        color:black;
+        transition: .3s;
+    }
+    .saints a:hover{
+        color: #0094ff;
+    }
+    .holiday_link{
+      text-decoration: none;
+        color:black;
+        transition: .3s;
+    }
+    .holiday_link:hover{
+      color: #0094ff;
+    }
+
+    .ikons-of-lady{
+      text-decoration: none;
+        color:black;
+        transition: .3s;
+    }
+    .ikons-of-lady:hover{
+      color: #0094ff;
+    }
+
+
+    @media (max-width: 1199px) {
+        .menu-pc{
+        display:none;
+    }
+    }
+
+    textarea{
+        min-height: 100px;
+        max-height:400px;
+    }
+.addnewcname {
+    color:#ba3827; 
+    border: 2px solid #ba3827;
+    transition: .3s;
+    cursor: pointer;
+}
+    .addnewcname:hover {
+        color: white;
+        background-color: #ba3827;
+    }
+
+    .addnewcname_black{
+      color:black; 
+    border: 2px solid black;
+    transition: .3s;
+    cursor: pointer;
+    }
+    .addnewcname_black:hover {
+      color: white;
+      background-color: black;
+  }
+
+input {
+    outline: 0 !important;
+}
+
+.form-check input{
+  cursor: pointer;
+}
+
+.za_zdravie_class{
+  transition: .2s;
+}
+.pomin__red input:active+.za_zdravie_class{
+  display: flex;
+}
+
+
+
+
+.red_scrap{
+  display: none;
+}
+.black_scrap{
+  display: none;
+}
+
+
+
+
+
+
+
+

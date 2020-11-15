@@ -1,0 +1,344 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Новости</title>
+    <link rel="shortcut icon" href="./assets/images/favicon2.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/blog/">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <!-- Bootstrap core CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header class="blog-header py-3">
+            <div class="row flex-nowrap justify-content-between align-items-center">
+                <div class="col-2 pt-1">
+                    <a class="link-secondary" href="index.html"><img class="rounded-circle" src="./assets/images/logo2.png" style="height: 70px;"></a>
+                </div>
+                <div class="col-8 text-center">
+                    <a class="blog-header-logo text-dark" href="index.html">Приход храма Святителя Николая Чудотворца г. Поставы<br /><h5>Белорусская православная церковь, Полоцкая епархия</h5></a>
+                </div>
+                <div class="col-2 d-flex justify-content-end align-items-center">
+                    <a class="link-secondary anim-increase" href="https://www.instagram.com/cerkovpostavy/?igshid=10jbd8h5z891t" aria-label="Search"> <img class="mr-2" src="./assets/images/inst.png" style="height: 30px;"></a>
+                    <a class="link-secondary anim-increase" href="https://vk.com/cerkovpostavy" aria-label="Search"> <img src="./assets/images/vk.png" style="height: 30px;"></a>
+                </div>
+            </div>
+        </header>
+        <!-- Меню -->
+
+        <!-- mobile -->
+        <div class="d-xxl-none d-xl-none">
+            <nav class="navbar navbar-dark bg-dark rounded-top">
+                <div class="container-fluid d-flex align-items-center">
+
+                    <button class="navbar-toggler d-flex align-items-center border-0" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        <div class="d-flex align-items-center"><p class="text-light m-0 ml-2">Меню</p></div>
+                    </button>
+                    <div class="d-flex align-items-center"><p class="text-light m-0 mr-2">Главная</p></div>
+                </div>
+            </nav>
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4 rounded-bottom ">
+                    <a class="p-3 no-active btn-outline-secondary text-light" href="index.html">Главная</a>
+                    <a class="p-3 no-active btn-outline-secondary text-light" href="hews.html">Новости</a>
+                    <a class="p-3 no-active btn-outline-secondary text-light" href="gallery.html">Галерея</a>
+                    <a class="p-3 no-active btn-outline-secondary text-light" href="school.html">Воскресная школа</a>
+                    <a class="p-3 no-active btn-outline-secondary text-light" href="communications.html">Для связи</a>
+                    <a class="p-3 no-active btn-outline-secondary text-light" href="questions.html">Вопрос священнику</a>
+                    <a class="p-3 active-2 text-light" href="scraps.html">Подать записку</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- PC -->
+        <div class="py-2 border-bottom mb-4 menu-pc">
+            <nav class="navbar-collapse nav flex-column flex-lg-row p-0 d-flex justify-content-between container">
+                <a class="p-3 no-active btn-outline-secondary" href="index.html">Главная</a>
+                <a class="p-3 active" href="news.html">Новости</a>
+                <a class="p-3 no-active btn-outline-secondary" href="gallery.html">Галерея</a>
+                <a class="p-3 no-active btn-outline-secondary" href="school.html">Воскресная школа</a>
+                <a class="p-3 no-active btn-outline-secondary" href="communications.html">Для связи</a>
+                <a class="p-3 no-active btn-outline-secondary" href="questions.html">Вопрос священнику</a>
+                <a class="p-3 active-2" href="scraps.html">Подать записку</a>
+            </nav>
+        </div>
+
+
+        <!-- Welcome! -->
+        <div class="p-4 p-md-5 mb-4 text-dark rounded shadow-lg" style='background-image: url(./assets/images/news/header_background_news.png); background-size:cover;'>
+            <div class="col-md-6 px-0">
+                <h1 class="display-5">Новости</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--  -->
+
+    <main class="container">
+        <div class="row">
+            <!-- Последние публикации: -->
+            <div class="col-md-8 ">
+                <h3 class="p-3 pl-4 mb-4 border rounded bg-light shadow">Последние публикации:</h3>
+                <div class="card mb-4 shadow">
+                    <img src="./assets/images/news.png" class="card-img-top" alt="images">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Название публикации</h5>
+                        <small>1 день назад</small>
+                        <p class="card-text">
+                            Текст публикации до определенного колличества символов.
+                            Текст публикации до определенного колличества символов.
+                            Текст публикации до определенного колличества символов.
+                            Текст публикации до определенного колличества символов.
+                            Текст публикации до определенного колличества символов.
+                        </p>
+                        <a href="#" class="btn btn-primary">
+                            Перейти <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="card mb-4 shadow">
+                    <img src="./assets/images/church.png" class="card-img-top" alt="images">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Название публикации</h5>
+                        <small>1 день назад</small>
+                        <p class="card-text">
+                            Текст публикации до определенного колличества символов.
+                            Текст публикации до определенного колличества символов.
+                            Текст публикации до определенного колличества символов.
+                            Текст публикации до определенного колличества символов.
+                            Текст публикации до определенного колличества символов.
+                        </p>
+                        <a href="#" class="btn btn-primary">
+                            Перейти <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="card mb-4 shadow">
+                    <img src="./assets/images/8516470.jpg" class="card-img-top" alt="images">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Название публикации</h5>
+                        <small>1 день назад</small>
+                        <p class="card-text">
+                            Текст публикации до определенного колличества символов.
+                            Текст публикации до определенного колличества символов.
+                            Текст публикации до определенного колличества символов.
+                            Текст публикации до определенного колличества символов.
+                            Текст публикации до определенного колличества символов.
+                        </p>
+                        <a href="#" class="btn btn-primary">
+                            Перейти <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="card mb-4 shadow">
+                    <img src="./assets/images/8516470.jpg" class="card-img-top" alt="images">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Название публикации</h5>
+                        <small>1 день назад</small>
+                        <p class="card-text">
+                            Текст публикации до определенного колличества символов.
+                            Текст публикации до определенного колличества символов.
+                            Текст публикации до определенного колличества символов.
+                            Текст публикации до определенного колличества символов.
+                            Текст публикации до определенного колличества символов.
+                        </p>
+                        <a href="#" class="btn btn-primary">
+                            Перейти <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Архив новостей: -->
+            <div class="col-md-4">
+                <h3 class="p-3 pl-4 mb-4 border rounded bg-light shadow">Архив новостей:</h3>
+                <div class="row g-0 border rounded overflow-hidden mb-4 shadow h-md position-relative">
+                    <div class="bg-light col col-fluid p-4  flex-column position-static shadow-sm">
+                        <!-- Стилизация сортировки -->
+                        <div class="dropdown mb-4">
+                            <button class="btn btn-white border rounded dropdown-toggle d-flex" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+                                Сортировать по дате
+                                
+                            </button>
+
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item" href="#">По дате</a> </li>
+                                <li><a class="dropdown-item" href="#">По популярности</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- конец стилизации сортировки -->
+
+                        <div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                                <div class="d-flex w-100 justify-content-between flex-column">
+                                    <h5 class="mb-1">У нас новый сайт!</h5>
+                                    <small class="">1 день назад</small>
+                                </div>
+                                <p class="mb-1">Текст новости. Текст новости. Текст новости.Текст новости. Текст новости.</p>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                                <div class="d-flex w-100 justify-content-between flex-column">
+                                    <h5 class="mb-1">У нас новый сайт!</h5>
+                                    <small class="">1 день назад</small>
+                                </div>
+                                <p class="mb-1">Текст новости. Текст новости. Текст новости.Текст новости. Текст новости.</p>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                                <div class="d-flex w-100 justify-content-between flex-column">
+                                    <h5 class="mb-1">У нас новый сайт!</h5>
+                                    <small class="">1 день назад</small>
+                                </div>
+                                <p class="mb-1">Текст новости. Текст новости. Текст новости.Текст новости. Текст новости.</p>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                                <div class="d-flex w-100 justify-content-between flex-column">
+                                    <h5 class="mb-1">У нас новый сайт!</h5>
+                                    <small class="">1 день назад</small>
+                                </div>
+                                <p class="mb-1">Текст новости. Текст новости. Текст новости.Текст новости. Текст новости.</p>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                                <div class="d-flex w-100 justify-content-between flex-column">
+                                    <h5 class="mb-1">У нас новый сайт!</h5>
+                                    <small class="">1 день назад</small>
+                                </div>
+                                <p class="mb-1">Текст новости. Текст новости. Текст новости.Текст новости. Текст новости.</p>
+                            </a>
+                        </div>
+                        <div class="container mt-3 d-flex justify-content-center">
+                            <nav aria-label="Page navigation example d-flex justify-content-center align-items-center">
+                                <ul class="pagination p-0 m-0">
+                                    <li class="page-item"><a class="page-link" href="#">Назад</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">Вперед</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container d-flex justify-content-center">
+                <nav aria-label="Page navigation example d-flex justify-content-center">
+                    <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="#">Назад</a></li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Вперед</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Меню внизу -->
+            <div class="container py-2 ">
+                <div class="row d-flex justify-content-between ">
+                    <div class="card p-4 shadow p-3 mb-4 bg-white rounded overflow-hidden anim-increase container-sm" style="width: 18rem; display:flex; justify-content:center; align-items:center; text-align:center;">
+                        <svg width="7em" height="7em" viewBox="0 0 16 16" class="bi bi-question-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                            <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z" />
+                        </svg>
+                        <div class="card-body">
+                            <p class="card-text">Ответы на самые популярные вопросы священнику</p>
+                        </div>
+                        <div class="bnt-news"><a href="questions.html" class="stretched-link">Перейти</a></div>
+                    </div>
+                    <div class="card p-4 shadow p-3 mb-4 bg-white rounded anim-increase container-sm" style="width: 18rem; display:flex; justify-content:center; align-items:center; text-align:center;">
+                        <svg width="7em" height="7em" viewBox="0 0 16 16" class="bi bi-images" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M12.002 4h-10a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1zm-10-1a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-10zm4 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                            <path fill-rule="evenodd" d="M4 2h10a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1v1a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2h1a1 1 0 0 1 1-1z" />
+                        </svg>
+                        <div class="card-body">
+                            <p class="card-text">Наша галерея фото и видео</p>
+                        </div>
+                        <div class="bnt-news"><a href="gallery.html" class="stretched-link">Перейти</a></div>
+                    </div>
+                    <div class="card p-4 shadow p-3 mb-4 bg-white rounded anim-increase container-sm" href="#" style="width: 18rem; display:flex; justify-content:center; align-items:center; text-align:center;">
+                        <svg width="7em" height="7em" viewBox="0 0 16 16" class="bi bi-card-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
+                            <path fill-rule="evenodd" d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z" />
+                        </svg>
+                        <div class="card-body">
+                            <p class="card-text">Здесь вы можете подать записку онлайн</p>
+                        </div>
+                        <div class="bnt-news"><a href="scraps.html" class="stretched-link">Перейти</a></div>
+                    </div>
+                    <div class="card p-4 shadow p-3 mb-4 bg-white rounded anim-increase container-sm" href="#" style="width: 18rem; display:flex; justify-content:center; align-items:center; text-align:center;">
+                        <svg width="7em" height="7em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                        </svg>
+                        <div class="card-body">
+                            <p class="card-text">Воскресная школа. Расписание, просветительская работа, мероприятия</p>
+                        </div>
+                        <div class="bnt-news"><a href="school.html" class="stretched-link">Перейти</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </main><!-- /.container -->
+
+    <footer class="blog-footer">
+        <a class="link-secondary" href="https://vk.com/cerkovpostavy" aria-label="Search"> <img class='anim-increase' src="./assets/images/footer/vk_footer.png" style="height: 30px;"></a>
+        <a class="link-secondary" href="https://www.instagram.com/cerkovpostavy/?igshid=10jbd8h5z891t" aria-label="Search"> <img class='anim-increase' src="./assets/images/footer/inst_footer.png" style="height: 30px;"></a>
+        <a class="link-secondary" href="https://www.youtube.com/channel/UCJ4RR8xSJDj486BKwoWmroQ/videos" aria-label="Search"> <img class='anim-increase' src="./assets/images/footer/yt_footer.png" style="height: 30px;"></a>
+        <a class="link-secondary" href="mailto:o.valeriy@cerkov-postavy.by  " aria-label="Search"> <img class='anim-increase' src="./assets/images/footer/mail_footer.png" style="height: 30px;"></a>
+        <p class="m-0 mt-4">© 2020 Приход храма cвятителя Николая Чудотворца г. Поставы</p>
+        <p class="m-0">Все права защищены. При использовании материалов ссылка на сайт обязательна.</p>
+        <p class="m-0">УНН 300078335</p>
+    </footer>
+
+
+    <!-- Скрипт календаря -->
+    <script type="text/javascript">
+        window.___azcfg = {
+            api: 'https://azbyka.ru/days/api',
+            image: 1
+        };
+        (function () {
+            var el = document.createElement('script'); el.type = 'text/javascript'; el.async = true;
+            el.src = 'https://azbyka.ru/days/assets/js/api.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(el, s);
+        })();
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+</body>
+</html>
