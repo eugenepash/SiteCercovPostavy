@@ -263,20 +263,9 @@ input {
   display: flex;
 }
 
-
-
-
 .red_scrap{
-  display: none;
+  display: flex;
 }
 .black_scrap{
   display: none;
 }
-
-
-
-
-
-
-
-
