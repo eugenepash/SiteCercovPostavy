@@ -35,10 +35,10 @@ blackScrapCheck.onclick = function(){
 
 
 addnewnameBtnRed.onclick = function(){
-    var divClone = cnameRed.cloneNode(true);
+    let divClone = cnameRed.cloneNode(true);
     addRed.appendChild(divClone);
 }
 addnewnameBtnBlack.onclick = function(){
-    var divClone = cnameBlack.cloneNode(true);
+    let divClone = cnameBlack.cloneNode(true);
     addBlack.appendChild(divClone);
 }
