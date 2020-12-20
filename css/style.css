@@ -1,4 +1,4 @@
-/* stylelint-disable selector-list-comma-newline-after */
+
 body {
     font-family: 'Jost', sans-serif;
 }
@@ -43,7 +43,6 @@ h1, h2, h3, h4, h5, h6 {
   overflow-x: auto;
   text-align: center;
   white-space: nowrap;
-  -webkit-overflow-scrolling: touch;
 }
 
 .nav-scroller .nav-link {
@@ -142,12 +141,16 @@ h1, h2, h3, h4, h5, h6 {
         border-radius: 7px;
         transition-duration: .3s;
     }
-.bnt-news{
+.btn-primary{
+    background-color: #0094ff;
+    border: 2px solid #0094ff;
+}
+.btn-news{
     display:flex;
     justify-content:flex-end;
     color:white;
 }
-.bnt-news a{
+.btn-news a{
     color:black;
     font-weight:500;
     text-decoration: none;
@@ -214,6 +217,18 @@ h1, h2, h3, h4, h5, h6 {
     .ikons-of-lady:hover{
       color: #0094ff;
     }
+.fasting-message{
+    text-align: center;
+}
+.fasting-message a{
+    text-decoration: none;
+    font-weight: 700;
+        color:black;
+        transition: .3s;
+}
+.fasting-message a:hover{
+    color: #0094ff;
+}
 
 
     @media (max-width: 1199px) {
@@ -226,46 +241,37 @@ h1, h2, h3, h4, h5, h6 {
         min-height: 100px;
         max-height:400px;
     }
-.addnewcname {
+.addnewnameBtnRed {
     color:#ba3827; 
     border: 2px solid #ba3827;
     transition: .3s;
     cursor: pointer;
 }
-    .addnewcname:hover {
+    .addnewnameBtnRed:hover {
         color: white;
         background-color: #ba3827;
     }
 
-    .addnewcname_black{
+    .addnewnameBtnBlack{
       color:black; 
     border: 2px solid black;
     transition: .3s;
     cursor: pointer;
     }
-    .addnewcname_black:hover {
+    .addnewnameBtnBlack:hover {
       color: white;
       background-color: black;
   }
-
-input {
-    outline: 0 !important;
-}
-
-.form-check input{
-  cursor: pointer;
-}
-
-.za_zdravie_class{
-  transition: .2s;
-}
-.pomin__red input:active+.za_zdravie_class{
-  display: flex;
-}
 
 .red_scrap{
   display: flex;
 }
 .black_scrap{
   display: none;
+}
+.panixidaList{
+    display: none;
+}
+.zdravieList{
+    display: block;
 }
